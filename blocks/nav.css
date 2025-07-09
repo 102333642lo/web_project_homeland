@@ -1,0 +1,23 @@
+.nav {
+  display: flex;
+  justify-content: center;
+}
+
+
+.nav__logo {
+  padding-top: 35px;
+}
+
+
+.nav__title {
+  list-style-type: none;
+  display: flex;
+  column-gap: 20px;
+  margin-top: 30px;
+  margin-right: 80px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
