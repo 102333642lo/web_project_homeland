@@ -2,12 +2,14 @@
   font-family: "Inter";
   color: #ffffff;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+
 }
 
 .header__title {
   margin: 0;
   font-style: normal;
-  font-weight: 900;
   font-size: 96px;
   line-height: 100px;
   text-align: center;
@@ -15,8 +17,9 @@
 
 
 .header__description {
-  margin-top: 28px;
-  margin-left: 80px;
+  margin: 0;
+  padding-top: 28px;
+  padding-left: 80px;
   font-style: normal;
   font-weight: normal;
   font-size: 30px;
