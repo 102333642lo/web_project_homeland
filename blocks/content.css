@@ -47,3 +47,83 @@
   padding-bottom: 92px;
 
 }
+
+@media screen and (max-width : 768px) {
+
+  .content {
+    color: #ffffff;
+    padding: 90px 24px 0 24px;
+  }
+
+
+  .content__title {
+
+    font-size: 45px;
+    line-height: 49px;
+
+  }
+
+
+
+  .content__subtitle {
+    padding-top: 50px;
+
+  }
+
+
+  .content__autor {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+
+  }
+
+  .content__text {
+
+    padding-bottom: 88px;
+
+  }
+}
+
+@media screen and (max-width : 320px) {
+
+  .content {
+    color: #ffffff;
+    padding: 64px 16px 0;
+  }
+
+
+  .content__title {
+
+    font-size: 32px;
+    line-height: 35px;
+
+  }
+
+
+
+  .content__subtitle {
+    padding-top: 40px;
+    font-size: 24px;
+    line-height: 30px;
+
+  }
+
+
+  .content__autor {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    text-align: right;
+
+  }
+
+  .content__text {
+
+    padding-bottom: 88px;
+    font-size: 16px;
+  }
+
+
+}

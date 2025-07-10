@@ -13,3 +13,27 @@
   line-height: 16px;
 
 }
+
+@media screen and (max-width : 768px) {
+
+  .footer {
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+  }
+
+
+}
+
+@media screen and (max-width : 320px) {
+
+  .footer {
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    overflow: hidden;
+  }
+
+
+}

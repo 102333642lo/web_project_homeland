@@ -9,3 +9,24 @@
   padding-top: 35px;
   padding-bottom: 83px;
 }
+
+@media screen and (max-width : 768px) {
+
+
+  .nav__logo {
+    padding-top: 30px;
+    padding-bottom: 75px;
+
+
+  }
+}
+
+@media screen and (max-width : 320px) {
+
+
+  .nav__logo {
+    padding-top: 20px;
+    padding-bottom: 50px;
+
+  }
+}
