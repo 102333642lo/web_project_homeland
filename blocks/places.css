@@ -65,6 +65,8 @@
 .article__image_cuadro {
   width: 460px;
   height: 460px;
+  opacity: 1;
+  transition: opacity 0.3s ease, background-color 0.3s ease;
   background-color: #C4C4C4;
   display: flex;
   align-items: center;
@@ -73,6 +75,11 @@
   font-size: 18px;
   text-align: center;
   box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.article__image_cuadro:hover {
+  opacity: 0.7;
+  background: #00000080;
 
 }
 
