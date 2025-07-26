@@ -7,11 +7,6 @@
 
 }
 
-
-.article__button-submit {
-  background-image: linear-gradient(to right, #0278FE 0%, #003A7B 99.98%)
-}
-
 @media screen and (max-width : 768px) {
   .places {
     padding-top: 88px;
